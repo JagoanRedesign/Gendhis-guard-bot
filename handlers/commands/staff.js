@@ -16,7 +16,7 @@ const staffHandler = async ctx => {
 
 	const list = TgHtml.join('\n', links.map(s => html`⭐ ${s}`));
 
-	return ctx.replyWithHTML(html`<b>Admins in the network:</b>\n\n${list}`, {
+	return ctx.replyWithHTML(html`<b>Admins Bot:</b>\n\n<b>@mazekubot</b>`, {
 		disable_notification: true,
 		disable_web_page_preview: true,
 	}).then(scheduleDeletion());
