@@ -3,19 +3,13 @@ const { Markup } = require('telegraf');
 const { homepage } = require('../../package.json');
 
 const message = `\
-Hey there!
+Hai!
 
-I'm an <b>administration</b> bot that helps you to keep \
-your <b>groups</b> safe from <b>spammers.</b>
+ Saya adalah bot <b>administrasi</b> yang membantu Anda mempertahankan \ <b>grup</b> Anda aman dari <b>spammer.</b> 
 
-Send /commands to get the list of available commands.
+Kirim /perintah untuk mendapatkan daftar perintah yang tersedia. 
 
-If you want to use me for your groups, \
-note that I'm more useful on a network of groups and \
-you also need to <b>setup a new bot.</b>
-
-So if you don't wish to self-host, @MissRose_bot \
-might be a better choice for you.
+Jika Anda ingin menggunakan saya untuk grup Anda, \ perhatikan bahwa saya lebih berguna di jaringan grup dan \ Anda juga perlu <b>menyiapkan bot baru.</b> Jadi jika Anda tidak ingin menghosting sendiri, @Qya4bot \ mungkin pilihan yang lebih baik untuk Anda.
 `;
 
 /** @param { import('../../typings/context').ExtendedContext } ctx */
@@ -25,7 +19,7 @@ const helpHandler = (ctx) => {
 	return ctx.replyWithHTML(
 		message,
 		Markup.inlineKeyboard([
-			Markup.button.url('🛠 Setup a New Bot', homepage)
+			Markup.button.url('Owner Bot', 'https://t.me/Mazekubot')
 		])
 	);
 };
