@@ -10,7 +10,7 @@ const pkg = require('../../package.json');
 const caption = `\
 Maaf, Anda perlu menyiapkan instance Anda sendiri \ untuk menggunakan saya di grup Anda atau jaringan grup. 
 
-Jika Anda tidak ingin menghosting sendiri,\ Anda dapat mencoba @MissRose_bot sebagai gantinya.
+Jika Anda tidak ingin menghosting sendiri,\ Anda dapat mencoba @Qya4bot sebagai gantinya.
 `;
 
 const inline_keyboard = [ [ {
