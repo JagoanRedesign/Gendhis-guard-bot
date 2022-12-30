@@ -57,8 +57,7 @@ const leaveUnmanagedHandler = async (ctx, next) => {
 	} catch (err) {
 		// do nothing
 	}
-	await ctx.telegram.leaveChat(ctx.chat.id);
-	return next();
+	// kode keluar
 };
 
 module.exports = leaveUnmanagedHandler;
