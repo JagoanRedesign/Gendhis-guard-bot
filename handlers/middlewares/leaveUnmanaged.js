@@ -8,16 +8,14 @@ const pkg = require('../../package.json');
 
 
 const caption = `\
-Sorry, you need to set up your own instance \
-to use me in your group or a network of groups.
+Maaf, Anda perlu menyiapkan instance Anda sendiri \ untuk menggunakan saya di grup Anda atau jaringan grup. 
 
-If you don't wish to self host, \
-you can try @MissRose_bot instead.
+Jika Anda tidak ingin menghosting sendiri,\ Anda dapat mencoba @MissRose_bot sebagai gantinya.
 `;
 
 const inline_keyboard = [ [ {
-	text: '🛠 Setup a New Bot',
-	url: pkg.homepage,
+	text: 'Owner Bot',
+	url: 'https://t.me/Mazekubot',
 } ] ];
 
 const reply_markup = JSON.stringify({ inline_keyboard });
