@@ -5,11 +5,13 @@ const { homepage } = require('../../package.json');
 const message = `\
 Hai!
 
- Saya adalah bot <b>administrasi</b> yang membantu Anda mempertahankan \ <b>grup</b> Anda aman dari <b>spammer.</b> 
+Saya adalah bot <b>administrasi</b> yang membantu Anda mempertahankan \ <b>grup</b> Anda aman dari <b>spammer.</b> 
 
-Kirim /perintah untuk mendapatkan daftar perintah yang tersedia. 
+Kirim /commands  untuk mendapatkan daftar perintah yang tersedia. 
 
-Jika Anda ingin menggunakan saya untuk grup Anda, \ perhatikan bahwa saya lebih berguna di jaringan grup dan \ Anda juga perlu <b>menyiapkan bot baru.</b> Jadi jika Anda tidak ingin menghosting sendiri, @Qya4bot \ mungkin pilihan yang lebih baik untuk Anda.
+Jika Anda ingin menggunakan saya untuk grup Anda, \ perhatikan bahwa saya lebih berguna di jaringan grup dan \ Anda juga perlu <b>menyiapkan bot baru.</b> 
+
+Jadi jika Anda tidak ingin menghosting sendiri, @Qya4bot \ mungkin pilihan yang lebih baik untuk Anda.
 `;
 
 /** @param { import('../../typings/context').ExtendedContext } ctx */
