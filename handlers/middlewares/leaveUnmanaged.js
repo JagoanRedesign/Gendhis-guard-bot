@@ -53,7 +53,7 @@ const leaveUnmanagedHandler = async (ctx, next) => {
 	}
 
 	try {
-		await ctx.replyWithVideo(randomChoice(gifs), { caption, reply_markup });
+		
 	} catch (err) {
 		// do nothing
 	}
